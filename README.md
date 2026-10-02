@@ -68,7 +68,7 @@ When the program starts, it collects proxies from the configured public sources.
 After downloading, you will see:
 
 ```text
-Proxy Sudah Di Unduh, Mau Check? (Y/N):
+The proxy is downloaded, want to check? (Y/N):
 ```
 
 Enter:
@@ -106,37 +106,37 @@ to exit.
 ### Basic
 
 ```bash
-python ProxyScraper.py
+python proxyscraper.py
 ```
 
 ### Verbose mode
 
 ```bash
-python ProxyScraper.py -v
+python proxyscraper.py -v
 ```
 
 ### 10-second timeout
 
 ```bash
-python ProxyScraper.py -t 10
+python proxyscraper.py -t 10
 ```
 
 ### 100 concurrent workers
 
 ```bash
-python ProxyScraper.py -w 100
+python proxyscraper.py -w 100
 ```
 
 ### Custom website
 
 ```bash
-python ProxyScraper.py -s https://example.com
+python Proxyscraper.py -s https://example.com
 ```
 
 ### Combine options
 
 ```bash
-python ProxyScraper.py -t 10 -w 100 -v -r
+python proxyScraper.py -t 10 -w 100 -v -r
 ```
 
 ---
