@@ -12,7 +12,7 @@
 
 ## Features
 
-* Scrape proxies from multiple public sources
+* Scrape proxies from multiple public sources(You can edit it)
 * Automatically remove duplicate proxies
 * Validate IPv4 addresses and ports
 * Multithreaded proxy checking
@@ -38,7 +38,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Proxy-Scraper.git
+git clone https://github.com/Drylp0gs/Proxy-Scraper.git
 ```
 
 ### 2. Enter the project directory
